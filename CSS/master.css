@@ -25,9 +25,11 @@ footer, header, hgroup, menu, nav, section {
 }
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900'); /* roboto font.*/ 
+
 body {
     line-height: 1;
     font-family: 'Roboto', sans-serif;
+    background-color: #fafafa;
 }
 ol, ul {
 	list-style: none;
@@ -44,11 +46,31 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-.test{
-    font-size: 30px;
-    font-weight: 900;
+h1{
+    font-size: 2em;
+    font-weight: 700;
 }
+div{
+    border: solid;
+}
+.nav{
+    border-bottom: solid;
+    border-color: black;
+    margin-right: 0;
+    margin-left: 0;
+    height: 100px;
+    text-align: center;
+    background-color: white;
+    
+}
+.title{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 10%;
+    color: #EE7624;
+    border: none;
+}
+
 
 
 
