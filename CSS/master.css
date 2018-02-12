@@ -142,7 +142,7 @@ div{
   .subject{
     position: relative;
     text-align: center;
-    font-size: 25px;
+    font-size: calc(20px + .5vw);
     margin-top: 1em;
     color: black;
   }
@@ -156,7 +156,8 @@ div{
   }
 
   .linklist{
-      font-size: 1.3em;
+      font-size: calc(16px + .5vw);
+      
   }
   .linklist a{
       text-decoration: underline;
