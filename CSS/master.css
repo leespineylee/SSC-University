@@ -59,8 +59,8 @@ div{
 
 }
 .nav{
-    border-bottom: solid;
-    border-color: black;
+    
+    box-shadow: 0 8px 6px -6px #999;
     margin-right: 0;
     margin-left: 0;
     height: 5em;
@@ -74,6 +74,10 @@ div{
     padding-left: 10%;
     padding-top: 2em;
     color: rgb(0, 51, 160);
+    border-bottom: solid;
+    border-color: #999;
+    border-bottom-width: 2px;
+ 
     
 }
 
