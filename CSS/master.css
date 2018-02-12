@@ -53,27 +53,28 @@ a {
 
 h1{
     font-size: 2em;
-    font-weight: 700;
+    font-weight: 500;
 }
 div{
- 
+
 }
 .nav{
     border-bottom: solid;
     border-color: black;
     margin-right: 0;
     margin-left: 0;
-    height: 100px;
+    height: 5em;
     text-align: center;
     background-color: white;
     /*add a shadow*/
 }
 .title{
     padding-top: 1em;
-    padding-bottom: 1em;
+    padding-bottom: 2em;
     padding-left: 10%;
-    color: #EE7624;
-    border: none;
+    padding-top: 2em;
+    color: rgb(0, 51, 160);
+    
 }
 
 
